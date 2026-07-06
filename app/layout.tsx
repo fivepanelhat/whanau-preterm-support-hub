@@ -16,6 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://whanau-preterm-support-hub.vercel.app'),
   title: 'Whānau Preterm Support Hub NZ | He waka eke noa',
   description: 'Culturally safe, trauma-informed support for whānau and families of preterm twin newborns in Aotearoa New Zealand. Resources, peer connection, funding pathways, and community.',
   icons: {
