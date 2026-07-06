@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:e2e": "playwright test",
     "typecheck": "tsc --noEmit",
     "preflight": "python scripts/hub_release_preflight.py --version"

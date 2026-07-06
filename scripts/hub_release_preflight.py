@@ -181,7 +181,7 @@ def main() -> int:
     else:
         # For Next.js we run the test script from package.json
         print("Running tests via npm test (or pnpm/yarn)...")
-        test_cmd = ["npm", "test", "--", "--watchAll=false", "--ci", "--coverage=false"]
+        test_cmd = ["npm.cmd" if sys.platform == "win32" else "npm", "test", "--", "--watchAll=false", "--ci", "--coverage=false"]
         result = subprocess.run(test_cmd, capture_output=True, text=True)
         if result.returncode == 0:
             print(f"{PASS} All tests passed.")
