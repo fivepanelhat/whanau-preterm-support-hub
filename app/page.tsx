@@ -178,7 +178,10 @@ export default function HomePage() {
               <li>• Clinical &amp; midwifery advisors</li>
               <li>• Aether sovereign agentic system (orchestration + safety)</li>
             </ul>
-            <p className="text-xs text-slate-500 mt-6">More partners and cultural reviewers welcomed — open an issue or reach out.</p>
+            <p className="text-xs text-slate-500 mt-6">
+              More partners and cultural reviewers welcomed — open an issue or reach out.<br/>
+              This project is proudly open-source under the <strong>Apache 2.0 License</strong>.
+            </p>
           </div>
         </div>
       </section>
@@ -197,7 +200,7 @@ export default function HomePage() {
               View on GitHub
             </a>
           </div>
-          <p className="text-xs text-teal-300 mt-6">All contributions are governed by our Code of Conduct and cultural safety protocols.</p>
+          <p className="text-xs text-teal-300 mt-6">Open-source under the Apache 2.0 License. All contributions are governed by our Code of Conduct and cultural safety protocols.</p>
         </div>
       </section>
     </div>
