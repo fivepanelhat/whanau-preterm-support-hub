@@ -13,7 +13,7 @@
     "preflight": "python scripts/hub_release_preflight.py --version"
   },
   "dependencies": {
-    "next": "15.3.3",
+    "next": "15.5.18",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "@radix-ui/react-slot": "^1.1.0",
