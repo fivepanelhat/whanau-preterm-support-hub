@@ -31,3 +31,19 @@ We aim to acknowledge reports within 48 hours and provide a fix timeline within 
 - Cultural safety reviews for any change that could affect whānau data or community relationships.
 
 Thank you for helping keep this platform safe and trustworthy for whānau across Aotearoa.
+
+## Security Notifications
+
+| Channel | Response |
+| ------- | -------- |
+| Dependabot (npm + Actions) | Weekly; merge security updates first |
+| npm audit / CI | Zero high/critical on `main` |
+| Secret rotation | Follow runbook tables above |
+| CSP / rate limits / RLS | Keep defaults strict; review on every auth change |
+
+## Active patches (2026-07)
+
+| Finding | Mitigation |
+| ------- | ---------- |
+| Workflow token scope | `permissions: contents: read` on CI |
+| Supply chain | Dependabot enabled; lockfile commits required |
