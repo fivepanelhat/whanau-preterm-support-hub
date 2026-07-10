@@ -1,14 +1,5 @@
 # Whānau Preterm Support Hub NZ
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)  
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)]()  
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript&logoColor=white)]()  
-[![Te Tiriti](https://img.shields.io/badge/Te%20Tiriti-Aligned-00247D?style=flat-square)]()  
-[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Data%20Sovereignty-005A9C?style=flat-square)]()  
-[![Sovereignty](https://img.shields.io/badge/Sovereignty-NZ%20Data%20Bound-00247D?style=flat-square)]()  
-[![CI](https://github.com/fivepanelhat/whanau-preterm-support-hub/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fivepanelhat/whanau-preterm-support-hub/actions/workflows/ci.yml)  
-[![Accessibility](https://img.shields.io/badge/WCAG-2.2%20AA-success?style=flat-square)]()  
-[![Dependabot](https://img.shields.io/badge/Dependencies-Monitored-brightgreen?style=flat-square&logo=dependabot)]()
 
 **He waka eke noa — We are all in this waka together.**
 
@@ -157,3 +148,19 @@ With additional cultural and health disclaimers as noted above.
 For issues, feature requests, or cultural partnership discussions, please open a GitHub Issue or contact the maintainers via the repository.
 
 *Maintained with aroha by the Whānau Preterm Support Hub team and Aether Summit (Senior Lead Developer & Orchestrator).*
+
+---
+
+## Project badges
+
+Status badges for this repository (CI, security, license, and stack metadata):
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)  
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)]()  
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript&logoColor=white)]()  
+[![Te Tiriti](https://img.shields.io/badge/Te%20Tiriti-Aligned-00247D?style=flat-square)]()  
+[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Data%20Sovereignty-005A9C?style=flat-square)]()  
+[![Sovereignty](https://img.shields.io/badge/Sovereignty-NZ%20Data%20Bound-00247D?style=flat-square)]()  
+[![CI](https://github.com/fivepanelhat/whanau-preterm-support-hub/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fivepanelhat/whanau-preterm-support-hub/actions/workflows/ci.yml)  
+[![Accessibility](https://img.shields.io/badge/WCAG-2.2%20AA-success?style=flat-square)]()  
+[![Dependabot](https://img.shields.io/badge/Dependencies-Monitored-brightgreen?style=flat-square&logo=dependabot)]()
