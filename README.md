@@ -3,12 +3,81 @@
 ![Banner](assets/social_preview.png)
 
 
-
 **He waka eke noa — We are all in this waka together.**
 
 A sovereign, open-source, culturally grounded national digital platform supporting whānau and families of preterm twin newborns across Aotearoa New Zealand.
 
 **Current status**: Early development (v0.1.0 scaffold) — public release targeted for late 2026.
+
+## Architecture Overview
+
+A **Next.js** national support hub for whānau of preterm twins — Te Tiriti-aligned, Te Mana Raraunga by design, with Aether-assisted development and strong accessibility defaults.
+
+![Whānau Preterm Support Hub architecture — liquid glass overview](assets/architecture_overview.png)
+
+### System map
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "fontSize": "16px",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+    "primaryColor": "#0ea5e9",
+    "primaryTextColor": "#f8fafc",
+    "primaryBorderColor": "#38bdf8",
+    "lineColor": "#67e8f9",
+    "secondaryColor": "#1e293b",
+    "tertiaryColor": "#0f172a",
+    "clusterBkg": "#0b1220cc",
+    "clusterBorder": "#38bdf880",
+    "titleColor": "#e2e8f0"
+  },
+  "flowchart": {
+    "nodeSpacing": 40,
+    "rankSpacing": 48,
+    "padding": 20,
+    "htmlLabels": true,
+    "curve": "basis"
+  }
+}}%%
+flowchart TB
+
+    classDef sense fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#f0fdf4
+    classDef edge fill:#0c4a6e,stroke:#38bdf8,stroke-width:2px,color:#f0f9ff
+    classDef core fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f0fdfa
+    classDef act fill:#422006,stroke:#fbbf24,stroke-width:2px,color:#fffbeb
+    classDef store fill:#1e1b4b,stroke:#a5b4fc,stroke-width:2px,color:#eef2ff
+    classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
+    classDef app fill:#1e1b4b,stroke:#c4b5fd,stroke-width:2px,color:#eef2ff
+
+    U["Whānau / practitioners"] --> WEB["Next.js 15 App Router<br/>TypeScript · Tailwind"]
+    WEB --> API["API routes<br/>Zod · auth guards"]
+    API --> DATA["Resources · directory<br/>no PHI by default"]
+    WEB --> A11Y["WCAG 2.2 AA<br/>mobile-first"]
+    DEV["Aether HITL<br/>release preflight"] -.-> WEB
+
+    class U act
+    class WEB,API core
+    class DATA,A11Y store
+    class DEV ai
+```
+
+| Layer | Components | Role |
+| :--- | :--- | :--- |
+| **UI** | Next.js 15 + TS | Accessible by default |
+| **Data** | General resources only | No PHI by default |
+| **Principles** | Te Tiriti · Te Mana Raraunga | Sovereign by design |
+| **Dev safety** | Aether + preflight | HITL releases |
+
+*Full detail: [docs/](./docs/)*
+
+
+For issues, feature requests, or cultural partnership discussions, please open a GitHub Issue or contact the maintainers via the repository.
+
+*Maintained with aroha by the Whānau Preterm Support Hub team and Aether Summit (Senior Lead Developer & Orchestrator).*
+
+---
 
 ## Vision
 
@@ -145,12 +214,6 @@ With additional cultural and health disclaimers as noted above.
 - All open-source contributors who prioritise equity, accessibility, and cultural safety
 
 **He waka eke noa.**
-
----
-
-For issues, feature requests, or cultural partnership discussions, please open a GitHub Issue or contact the maintainers via the repository.
-
-*Maintained with aroha by the Whānau Preterm Support Hub team and Aether Summit (Senior Lead Developer & Orchestrator).*
 
 ---
 
