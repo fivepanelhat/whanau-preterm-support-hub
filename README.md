@@ -13,6 +13,7 @@
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-00A67E)](https://openai.com)
 [![Grok](https://img.shields.io/badge/Grok-xAI-000000)](https://x.ai)
 
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 [![Te Tiriti](https://img.shields.io/badge/Te%20Tiriti-Aligned-00247D)](https://github.com/fivepanelhat/whanau-preterm-support-hub)
 [![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Data%20Sovereignty-005A9C)](https://www.temanararaunga.maori.nz)
 [![Accessibility](https://img.shields.io/badge/WCAG-2.2%20AA-success)](https://github.com/fivepanelhat/whanau-preterm-support-hub)
