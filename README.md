@@ -8,12 +8,12 @@
 [![HITL](https://img.shields.io/badge/HITL-Draft%2FPrepare%20only-dc2626)](./.github/agent-fleet/AGENTS.md)
 [![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Aligned-0f766e)](https://github.com/fivepanelhat/fivepanelhat)
 
-**Part of the [Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat)** · Founder OS: [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · Agent policy: [`.github/agent-fleet/`](./.github/agent-fleet/)
+**Part of the [Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat)** | Founder OS: [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Agent policy: [`.github/agent-fleet/`](./.github/agent-fleet/)
 
-> Sovereign hybrid edge AI for NZ farms & founders — local-first + multi-model, Te Mana Raraunga aligned — collaborating with Venture Taranaki, startups.com investors & Kotahitanga Investment Fund (HITL + cultural advisory for formal approaches).
+> Sovereign hybrid edge AI for NZ farms and founders - local-first + multi-model, Te Mana Raraunga aligned - collaborating with Venture Taranaki, startups.com investors and Kotahitanga Investment Fund (HITL + cultural advisory for formal approaches).
 
 **Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**  
-Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) · Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
+Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
 <!-- END CAT_CONGRUENCE_SNIPPET -->
 
 
@@ -41,17 +41,17 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 ![Banner](assets/social_preview.png)
 
 
-**He waka eke noa â€” We are all in this waka together.**
+**He waka eke noa  We are all in this waka together.**
 
 A sovereign, open-source, culturally grounded national digital platform supporting whÄnau and families of preterm twin newborns across Aotearoa New Zealand.
 
-**Current status**: Early development (v0.1.0 scaffold) â€” public release targeted for late 2026.
+**Current status**: Early development (v0.1.0 scaffold)  public release targeted for late 2026.
 
 ## Architecture Overview
 
-A **Next.js** national support hub for whÄnau of preterm twins â€” Te Tiriti-aligned, Te Mana Raraunga by design, with Aether-assisted development and strong accessibility defaults.
+A **Next.js** national support hub for whÄnau of preterm twins  Te Tiriti-aligned, Te Mana Raraunga by design, with Aether-assisted development and strong accessibility defaults.
 
-![WhÄnau Preterm Support Hub architecture â€” liquid glass overview](assets/architecture_overview.png)
+![WhÄnau Preterm Support Hub architecture  liquid glass overview](assets/architecture_overview.png)
 
 ### System map
 
@@ -89,9 +89,9 @@ flowchart TB
     classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
     classDef app fill:#1e1b4b,stroke:#c4b5fd,stroke-width:2px,color:#eef2ff
 
-    U["WhÄnau / practitioners"] --> WEB["Next.js 15 App Router<br/>TypeScript Â· Tailwind"]
-    WEB --> API["API routes<br/>Zod Â· auth guards"]
-    API --> DATA["Resources Â· directory<br/>no PHI by default"]
+    U["WhÄnau / practitioners"] --> WEB["Next.js 15 App Router<br/>TypeScript | Tailwind"]
+    WEB --> API["API routes<br/>Zod | auth guards"]
+    API --> DATA["Resources | directory<br/>no PHI by default"]
     WEB --> A11Y["WCAG 2.2 AA<br/>mobile-first"]
     DEV["Aether HITL<br/>release preflight"] -.-> WEB
 
@@ -101,12 +101,12 @@ flowchart TB
     class DEV ai
 ```
 
-| Layer | Components | Role |
-| :--- | :--- | :--- |
-| **UI** | Next.js 15 + TS | Accessible by default |
-| **Data** | General resources only | No PHI by default |
-| **Principles** | Te Tiriti Â· Te Mana Raraunga | Sovereign by design |
-| **Dev safety** | Aether + preflight | HITL releases |
+ | Layer | Components | Role |
+ | :--- | :--- | :--- |
+ | **UI** | Next.js 15 + TS | Accessible by default |
+ | **Data** | General resources only | No PHI by default |
+ | **Principles** | Te Tiriti | Te Mana Raraunga | Sovereign by design |
+ | **Dev safety** | Aether + preflight | HITL releases |
 
 *Full detail: [docs/](./docs/)*
 
@@ -126,17 +126,17 @@ Every whÄnau in Aotearoa who experiences preterm twin birth has immediate, eq
 - Clear funding and service navigation (WINZ, DHBs, iwi providers)
 - Trauma-informed tools that honour whakapapa, rangatiratanga, and manaakitanga
 
-The platform is built in partnership with whÄnau, iwi (including MuaÅ«poko), health professionals, and community organisations. Technology serves people â€” never the other way around.
+The platform is built in partnership with whÄnau, iwi (including MuaÅ«poko), health professionals, and community organisations. Technology serves people  never the other way around.
 
 ## Key Principles
 
-- **Te Tiriti o Waitangi** â€” Rangatiratanga, kaitiakitanga, manaakitanga, kotahitanga
-- **Te Mana Raraunga** â€” MÄori data sovereignty as first-class architecture
-- **No PHI by default** â€” Platform stores only general information and consented resources. Any personal health data remains under whÄnau control or with their chosen providers.
+- **Te Tiriti o Waitangi**  Rangatiratanga, kaitiakitanga, manaakitanga, kotahitanga
+- **Te Mana Raraunga**  MÄori data sovereignty as first-class architecture
+- **No PHI by default**  Platform stores only general information and consented resources. Any personal health data remains under whÄnau control or with their chosen providers.
 - **Trauma-informed & culturally safe** by design
-- **Accessibility first** â€” WCAG 2.2 AA minimum, mobile-first, low-bandwidth friendly
-- **Open source & sovereign** â€” Apache 2.0 licence with strong cultural and health disclaimers
-- **Agentic development with HITL** â€” Orchestrated by Aether v0.6.2+ (sovereign multi-agent system) with mandatory human approval gates for all releases and sensitive decisions
+- **Accessibility first**  WCAG 2.2 AA minimum, mobile-first, low-bandwidth friendly
+- **Open source & sovereign**  Apache 2.0 licence with strong cultural and health disclaimers
+- **Agentic development with HITL**  Orchestrated by Aether v0.6.2+ (sovereign multi-agent system) with mandatory human approval gates for all releases and sensitive decisions
 
 ## Tech Stack
 
@@ -175,29 +175,29 @@ The script enforces visibility checks, sensitive file scanning, monotonic versio
 
 ```
 whanau-preterm-support-hub/
-â”œâ”€â”€ app/                    # Next.js App Router
-â”‚   â”œâ”€â”€ layout.tsx
-â”‚   â””â”€â”€ page.tsx            # Public landing + disclaimers
-â”œâ”€â”€ components/             # Reusable accessible UI (shadcn/ui style)
-â”œâ”€â”€ lib/                    # Utils, constants, cultural helpers
-â”œâ”€â”€ docs/
-â”‚   â””â”€â”€ adr/                # Architecture Decision Records (incl. ADR-0001)
-â”œâ”€â”€ scripts/
-â”‚   â””â”€â”€ hub_release_preflight.py   # Mandatory pre-release guard (Aether-adapted)
-â”œâ”€â”€ .github/
-â”‚   â”œâ”€â”€ workflows/
-â”‚   â”‚   â”œâ”€â”€ ci.yml
-â”‚   â”‚   â””â”€â”€ release-preflight.yml
-â”‚   â””â”€â”€ ISSUE_TEMPLATE/
-â”œâ”€â”€ public/                 # Static assets (images, icons â€” culturally reviewed)
-â”œâ”€â”€ package.json
-â”œâ”€â”€ tailwind.config.ts
-â”œâ”€â”€ tsconfig.json
-â”œâ”€â”€ README.md               # You are here
-â”œâ”€â”€ SECURITY.md
-â”œâ”€â”€ CODE_OF_CONDUCT.md
-â”œâ”€â”€ CONTRIBUTING.md
-â””â”€â”€ LICENSE
+â"œâ"€â"€ app/                    # Next.js App Router
+â"‚   â"œâ"€â"€ layout.tsx
+â"‚   â""â"€â"€ page.tsx            # Public landing + disclaimers
+â"œâ"€â"€ components/             # Reusable accessible UI (shadcn/ui style)
+â"œâ"€â"€ lib/                    # Utils, constants, cultural helpers
+â"œâ"€â"€ docs/
+â"‚   â""â"€â"€ adr/                # Architecture Decision Records (incl. ADR-0001)
+â"œâ"€â"€ scripts/
+â"‚   â""â"€â"€ hub_release_preflight.py   # Mandatory pre-release guard (Aether-adapted)
+â"œâ"€â"€ .github/
+â"‚   â"œâ"€â"€ workflows/
+â"‚   â"‚   â"œâ"€â"€ ci.yml
+â"‚   â"‚   â""â"€â"€ release-preflight.yml
+â"‚   â""â"€â"€ ISSUE_TEMPLATE/
+â"œâ"€â"€ public/                 # Static assets (images, icons  culturally reviewed)
+â"œâ"€â"€ package.json
+â"œâ"€â"€ tailwind.config.ts
+â"œâ"€â"€ tsconfig.json
+â"œâ"€â"€ README.md               # You are here
+â"œâ"€â"€ SECURITY.md
+â"œâ"€â"€ CODE_OF_CONDUCT.md
+â"œâ"€â"€ CONTRIBUTING.md
+â""â"€â"€ LICENSE
 ```
 
 ## Contribution Guidelines
@@ -239,7 +239,7 @@ If you are in crisis or experiencing distress, please contact:
 
 ## Licence
 
-Apache License 2.0 â€” see `LICENSE` file.
+Apache License 2.0  see `LICENSE` file.
 
 With additional cultural and health disclaimers as noted above.
 
@@ -248,7 +248,7 @@ With additional cultural and health disclaimers as noted above.
 - WhÄnau and families who have walked this path and generously shared their knowledge
 - MuaÅ«poko Tribal Authority and other iwi partners
 - Mana Kai / Horowhenua community resilience network (inspiration for sovereign tech + community models)
-- Aether sovereign agentic system (fivepanelhat/Aether) â€” our orchestrator and safety layer
+- Aether sovereign agentic system (fivepanelhat/Aether)  our orchestrator and safety layer
 - All open-source contributors who prioritise equity, accessibility, and cultural safety
 
 **He waka eke noa.**
